@@ -1,9 +1,52 @@
 body {
-  background: teal;
+  background: rgba(211, 211, 211, 0.477);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(78, 78, 78);
 }
 
-.container {
-  background: white;
-  width: 30vh;
-  height: 30vh;
+img {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+div {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin-left: 5%;
+  margin-top: 150px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgb(44, 28, 28);
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.smaller {
+  font-size: 0.9rem;
+  padding-bottom: 1em;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.75em;
+  background: grey;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+a:hover {
+  /* padding: 0.8em; */
+  font-size: 1.05rem;
 }
